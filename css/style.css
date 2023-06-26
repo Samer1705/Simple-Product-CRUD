@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.bg-main{
+    background-color: #f9f7f6;;
+}
+.site-day .caption{
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.7s;
+}
+.site-day:hover .caption{
+    opacity: 1;
+}
+.site-day img{
+    transition: transform 0.7s;
+}
+.site-day:hover img{
+    transform: scale(1.03);
+}
